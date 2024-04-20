@@ -18,7 +18,7 @@ import (
 func main() {
 	privateKey:= os.Getenv("PRIVATE_KEY")
 	zkSyncEraProvider := "https://sepolia.era.zksync.dev"
-	ethProvider:= "wss://eth-sepolia.g.alchemy.com/v2/VtFb4uQ7Vc5l414EGwXDDzcSClkHv9TY"
+	ethProvider:= ""
 
 	// Connect to the zkSync network 
 	ZKClient, err := clients.Dial(zkSyncEraProvider)
